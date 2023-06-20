@@ -16,7 +16,7 @@ export default () => {
             }
           }
         }
-        .dumi-theme-antd-root {
+        .dumi-theme-karinpoky-root {
           .${prefix}-badge {
             &:not([type]),
             &[type='info'] {

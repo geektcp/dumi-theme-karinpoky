@@ -5,8 +5,8 @@ import { defineThemeConfig } from './.dumi/theme';
 export default defineConfig({
   // disable mfsu for HMR
   mfsu: false,
-  publicPath: '/dumi-theme-antd/',
-  base: '/dumi-theme-antd',
+  publicPath: '/dumi-theme-karinpoky/',
+  base: '/dumi-theme-karinpoky',
   favicons: ['https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png'],
   locales: [
     { id: 'zh-CN', name: '中文', suffix: '' },
@@ -15,7 +15,7 @@ export default defineConfig({
   extraBabelPresets: ['@emotion/babel-preset-css-prop'],
   // pass theme config
   themeConfig: defineThemeConfig({
-    name: 'dumi-theme-antd',
+    name: 'dumi-theme-karinpoky',
     nav: {
       'zh-CN': [
         { title: '指南', link: '/guide/introduce' },
@@ -27,7 +27,7 @@ export default defineConfig({
       ]
     },
     footer: 'KuangPF | Copyright © 2022-present',
-    github: 'https://github.com/KuangPF/dumi-theme-antd',
+    github: 'https://github.com/KuangPF/dumi-theme-karinpoky',
     localesEnhance: [
       { id: 'zh-CN', switchPrefix: '中' },
       { id: 'en-US', switchPrefix: 'en' }

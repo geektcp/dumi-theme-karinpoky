@@ -1,8 +1,8 @@
-<h1 align="center">dumi-theme-antd</h1>
+<h1 align="center">dumi-theme-karinpoky</h1>
 
 <div align="center">
 
-[dumi](https://d.umijs.org) theme similar to antd v5 website
+[dumi](https://d.umijs.org) theme similar to karinpoky v1 website
 
 [![NPM version](https://img.shields.io/npm/v/dumi-theme-ankarinpokytd.svg?style=flat)](https://npmjs.org/package/dumi-theme-karinpoky) [![NPM downloads](http://img.shields.io/npm/dm/dumi-theme-karinpoky.svg?style=flat)](https://npmjs.org/package/dumi-theme-karinpoky) [![Github Actions](https://github.com/geektcp/dumi-theme-karinpoky/workflows/Deploy/badge.svg)](https://github.com/geektcp/dumi-theme-karinpoky/actions)
 
