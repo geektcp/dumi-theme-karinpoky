@@ -10,7 +10,7 @@
 
 <p align="center">
   <a href="https://github.com/geektcp/dumi-theme-karinpoky">
-    <img  src="https://user-images.githubusercontent.com/20694238/221604020-d797a64e-30b5-4e4c-897d-112c8ee37512.png">
+    <img  src="https://raw.githubusercontent.com/geektcp/dumi-theme-karinpoky/main/README-cover.png">
   </a>
 </p>
 
