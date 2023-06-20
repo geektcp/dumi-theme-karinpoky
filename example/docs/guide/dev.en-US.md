@@ -5,7 +5,7 @@ title: Development
 
 ## development status
 
-`dumi-theme-antd` is currently under development, and some features of the Antd Design 5.0 official website have not yet been fully adapted. If you have any questions, please contact [issues](https://github.com/KuangPF/dumi-theme-antd /issues) form feedback.
+`dumi-theme-karinpoky` is currently under development, and some features of the Karinpoky 1.0 official website have not yet been fully adapted. If you have any questions, please contact [issues](https://github.com/geektcp/dumi-theme-karinpoky/issues) form feedback.
 
 ## Contributing
 

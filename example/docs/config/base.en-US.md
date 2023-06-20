@@ -5,7 +5,7 @@ nav:
 title: Base
 ---
 
-`dumi-theme-antd` In order to better adapt to the theme style of the antd v5 official website, some unique fields have been added and placed in the `themeConfig` field of the `dumi` theme configuration item. The specific configuration fields are as follows:
+`dumi-theme-karinpoky` In order to better adapt to the theme style of the karinpoky v1 official website, some unique fields have been added and placed in the `themeConfig` field of the `dumi` theme configuration item. The specific configuration fields are as follows:
 
 ## Basic Configuration
 
@@ -33,8 +33,8 @@ export interface IBannerConfig {
 
 const bannerConfigDefault: IBannerConfig = {
   showBanner: true,
-  bannerMobileImgUrl: 'xx', // antd v5 official website comes with banner image
-  bannerImgUrl: 'xx' // antd v5 official website comes with banner image
+  bannerMobileImgUrl: 'xx', // karinpoky v1 official website comes with banner image
+  bannerImgUrl: 'xx' // karinpoky v1 official website comes with banner image
 };
 ```
 
@@ -43,7 +43,7 @@ Home page header banner image configuration options
 ### localesEnhance
 
 - type：`ILocaleEnhance[]`
-- default：`dumi-theme-antd`
+- default：`dumi-theme-karinpoky`
 
 ```ts
 interface ILocaleEnhance {
@@ -59,13 +59,13 @@ The display of the multi-language switching prefix icon in the navigation header
 ### title
 
 - type：`string | Record<string, string>`
-- default：`Dumi Theme AntD`
+- default：`Dumi Theme Karinpoky`
 
 ```ts
 // multi-language configuration object, the key is the language name
 title: {
-  'zh-CN': 'Dumi Ant Design 主题',
-  'en-US': 'Dumi Theme Ant Design'
+  'zh-CN': 'Karinpoky 主题',
+  'en-US': 'Karinpoky theme'
 }
 ```
 
@@ -84,7 +84,7 @@ theme: {
 }
 ```
 
-It is used to customize antd theme style, same as `theme` in `ConfigProvider`, delete its preset algorithm `algorithm` attribute, and the preset algorithm can be modified through the page theme style button.
+It is used to customize karinpoky theme style, same as `theme` in `ConfigProvider`, delete its preset algorithm `algorithm` attribute, and the preset algorithm can be modified through the page theme style button.
 
 ### description
 

@@ -5,7 +5,7 @@ nav:
 title: 基础
 ---
 
-`dumi-theme-antd` 为了更好地适配 antd v5 官网主题风格，增加了一些特有字段，并将其置于 `dumi` 主题配置项 `themeConfig` 字段中，具体配置字段如下：
+`dumi-theme-karinpoky` 为了更好地适配 karinpoky v1 官网主题风格，增加了一些特有字段，并将其置于 `dumi` 主题配置项 `themeConfig` 字段中，具体配置字段如下：
 
 ## 基础配置
 
@@ -33,8 +33,8 @@ export interface IBannerConfig {
 
 const bannerConfigDefault: IBannerConfig = {
   showBanner: true,
-  bannerMobileImgUrl: 'xx', // antd v5 官网自带 banner 图
-  bannerImgUrl: 'xx' // antd v5 官网自带 banner 图
+  bannerMobileImgUrl: 'xx', // karinpoky v1 官网自带 banner 图
+  bannerImgUrl: 'xx' // karinpoky v1 官网自带 banner 图
 };
 ```
 
@@ -43,7 +43,7 @@ const bannerConfigDefault: IBannerConfig = {
 ### localesEnhance
 
 - 类型：`ILocaleEnhance[]`
-- 默认值：`dumi-theme-antd`
+- 默认值：`dumi-theme-karinpoky`
 
 ```ts
 interface ILocaleEnhance {
@@ -59,13 +59,13 @@ interface ILocaleEnhance {
 ### title
 
 - 类型：`string | Record<string, string>`
-- 默认值：`Dumi Theme AntD`
+- 默认值：`Dumi Theme Karinpoky`
 
 ```ts
 // 多语言时配置对象，key 为语言名
 title: {
-  'zh-CN': 'Dumi Ant Design 主题',
-  'en-US': 'Dumi Theme Ant Design'
+  'zh-CN': 'Karinpoky 主题',
+  'en-US': 'Karinpoky Theme'
 }
 ```
 
@@ -84,7 +84,7 @@ theme: {
 }
 ```
 
-用于定制 antd 主题样式，同 `ConfigProvider` 中 `theme`，删除其预设算法`algorithm`属性，预设算法通过页面主题样式按钮修改。
+用于定制 Karinpoky 主题样式，同 `ConfigProvider` 中 `theme`，删除其预设算法`algorithm`属性，预设算法通过页面主题样式按钮修改。
 
 ### description
 
